@@ -31,8 +31,7 @@ jobs:
 
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         name: Install packages
-        #continue-on-error: true
-        run: npm ci
+        run: npm install
 
       - name: Test & Build
         run: npm run build
