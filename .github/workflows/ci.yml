@@ -30,10 +30,8 @@ jobs:
             ${{ runner.os }}-node-
 
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-        name: Install node_modules
+        name: Install packages
         #continue-on-error: true
-        run: npm ci
-      - name: Install packages
         run: npm ci
 
       - name: Test & Build
