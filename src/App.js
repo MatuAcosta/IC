@@ -20,7 +20,7 @@ function App() {
           rel="noopener noreferrer"
           data-testid="learn-link"
         >
-          Entrar a Facebook
+          Entrar a Twitter
         </a>
         <p>Holaa</p>
       </header>
