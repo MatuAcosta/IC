@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Tu nota de parcial es un</p>
         <p data-testid = 'exam'>
-          7
+          4
         </p>
         <a
           className="App-link"
