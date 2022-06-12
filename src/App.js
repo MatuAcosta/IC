@@ -8,8 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Profe usted tiene que ponerme una nota mayor o igual a: </p>
-
+        <p>Tu nota de parcial es un</p>
         <p data-testid = 'exam'>
           9
         </p>
