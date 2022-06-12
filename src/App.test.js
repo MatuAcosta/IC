@@ -18,6 +18,6 @@ test("Profe tiene que aprobarme", () => {
   render(<App></App>);
   const nota = screen.getByTestId("exam");
 
-  expect(parseInt(nota.textContent)).toBeGreaterThan(8);
+  expect(parseInt(nota.textContent)).toBeGreaterThan(5);
 
 });
