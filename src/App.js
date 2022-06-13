@@ -21,7 +21,6 @@ function App() {
         >
           Entrar a Twitter
         </a>
-        <p>Holaa</p>
       </header>
     </div>
   );
